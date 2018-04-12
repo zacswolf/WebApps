@@ -1,0 +1,31 @@
+body{
+	background-image:url('background.jpg')
+}
+
+div{
+	;
+}
+#makeRed{
+	color: red;
+	font-style: italic;
+	word-spacing: 4px;
+}
+
+div>h1{
+	text-transform: uppercase;
+	color: purple
+}
+p{
+	text-align:justify;
+	text-indent: 50px;
+	color: yellow
+}
+h1{
+	text-indent: 70px;
+	border: 5px solid green;
+	background-color: pink;
+	color: red;
+	font-size: 40px;
+	letter-spacing: 4px;
+	word-spacing: 6px	
+}

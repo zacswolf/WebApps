@@ -1,0 +1,95 @@
+.buttons{
+	margin-top: 20px;
+	position: fixed;
+	width: 300px;
+	display: inline-block;
+}
+
+.newButt{
+    width: 174.53px;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #B89470;
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #B89470;
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.game {
+    width: 800px;
+    position: fixed;
+    margin: auto;
+    margin-left: 300px;
+}
+
+.top {
+    border-radius: 30px 30px 0 0;
+    background-color: #DD2900;
+    height: 40px;
+    margin: auto;
+    width: 620px;
+    box-shadow: 10px 10px 0px 3px #888888;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Times New Roman";
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+
+.top,  .bottom {
+    padding: 1px;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: #EBEBEB;
+    border: 60px solid #DD2900;
+    box-shadow: 10px 10px 0px 3px #888888;
+}
+
+.bottom {
+    width: 620px;
+    height: 40px;
+    background-color: #DD2900;
+    margin: auto;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 10px 10px 0px 3px #888888;
+}
+
+.knob {
+    position: relative;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: -50px;
+    border: 4px ridge gray;
+}
+
+#knobSpace {
+    display: inline-block;
+    width: 168px;
+}
+

@@ -1,0 +1,36 @@
+*{
+    	font-family: Tahoma;
+    	text-align: center;
+	}
+#month{
+	width: 1000px;
+	height: 1000px;
+}
+.emptyday{
+	float: left;
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: transparent;
+	width: 100px;
+	height: 70px;
+	margin: 5px 5px 5px 5px;
+}
+.dayLabel, .day{
+	float: left;
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: #123456;
+	width: 100px;
+	height: 70px;
+	margin: 5px 5px 5px 5px;
+	background-color: gold;
+	color:blue;
+}
+.dayLabel:nth-child(7n+1), .day:nth-child(7n+1), .emptyday:nth-child(7n+1){
+	clear: both;
+}
+select{
+	margin: 20px 20px;
+	color: white;
+	background-color: black;
+}

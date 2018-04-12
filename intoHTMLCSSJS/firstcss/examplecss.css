@@ -1,0 +1,26 @@
+body {
+    background-color: purple;
+    color: black;
+}
+h1 {
+    font-size: 36pt;
+    background-color: purple;
+    text-align: center;
+}
+
+p {
+    margin-left: 50px;
+    background-color: purple;
+    color: red;
+}
+div{
+	background-color: white;
+}
+div > h1 {
+	background-color: white;
+}
+
+div > p {
+	color: black;
+	background-color: white;
+}
