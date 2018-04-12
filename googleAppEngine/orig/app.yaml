@@ -1,0 +1,9 @@
+application: zac-lasa-hello-world-2017
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: validate1.application
